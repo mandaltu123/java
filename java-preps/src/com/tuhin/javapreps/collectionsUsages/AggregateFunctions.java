@@ -40,7 +40,7 @@ public class AggregateFunctions {
         jenny.setGender(Employee.SEX.FEMALE);
 
         Employee serra = new Employee();
-        serra.setName("jenny");
+        serra.setName("serra");
         serra.setAge(23);
         serra.setGender(Employee.SEX.FEMALE);
 
