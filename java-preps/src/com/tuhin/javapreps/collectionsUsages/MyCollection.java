@@ -66,4 +66,11 @@ public interface MyCollection<E> extends Iterable<E> {
      */
     boolean addAll(Collection<?> c);
 
+    /**
+     * Removes element from the list of a given index
+     * @param index
+     * @return object if that object exists at the index position else returns null
+     */
+    E remove(int index);
+
 }

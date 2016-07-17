@@ -6,7 +6,11 @@ package com.tuhin.javapreps.misc;
 public class Whatever {
 
     public static void main(String args[]) {
-        System.out.print("ola world!");
-        //Whatever.classLoader();
+        int initCapacity = 10;
+
+
     }
+
+
+
 }
