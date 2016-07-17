@@ -9,7 +9,7 @@ import java.util.Iterator;
  * Created in reference of java 7 collection interface.
  * In java 8 StreamSupport has been added to this interface
  */
-public interface MyCollection<E> extends Iterable<E> {
+public interface MyList<E> extends Iterable<E> {
 
     /**
      * size of collection

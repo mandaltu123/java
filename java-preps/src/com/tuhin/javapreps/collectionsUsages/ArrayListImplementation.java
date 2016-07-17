@@ -11,7 +11,7 @@ import java.util.*;
  * <p>
  * Stream support is not added in this class.
  */
-public class ArrayListImplementation<E> implements MyCollection<E>,
+public class ArrayListImplementation<E> implements MyList<E>,
 
         Cloneable, RandomAccess, Serializable {
 
