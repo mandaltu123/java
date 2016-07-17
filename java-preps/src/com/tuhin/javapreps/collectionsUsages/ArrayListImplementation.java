@@ -131,6 +131,6 @@ public class ArrayListImplementation<E> implements MyCollection<E>,
     }
 
     private void incrementSize() {
-        elementData = Arrays.copyOf(elementData, elementData.length * 2);//incrementing size by 2
+        elementData = Arrays.copyOf(elementData, elementData.length * 2);//incrementing size by doubling
     }
 }

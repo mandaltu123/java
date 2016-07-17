@@ -24,6 +24,11 @@ public class Tmpclass {
         }
     }
 
+    /**
+     * First program i wrote ever in college :)
+     * @param x
+     * @param y
+     */
     public void swap(int x, int y) {
         x = x + y;
         y = x -y;
