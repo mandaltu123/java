@@ -1,0 +1,43 @@
+Let’s start with a new post in the Java concurrency series. This time we’ll learn how to start new threads cleanly and to manage thread pools. In Java, if you have a Runnable like this :
+
+Runnable runnable =newRunnable(){publicvoid run(){System.out.println("Run");}}
+You can easily run it in a new thread :
+
+new Thread(runnable).start();
+This is very simple and clean, but what if you’ve several long running tasks that you want to load in parallel and then wait for the completion of all the tasks: it’s a little bit harder to code. And if you want to get the return value of all the tasks it becomes really difficult to maintain good code. But as with almost any problem, Java has a solution for you, the Executors. This simple class allows you to create thread pools and thread factories.
+
+
+
+A thread pool is represented by an instance of the class ExecutorService. With an ExecutorService, you can submit task that will be completed in the future. Here are the type of thread pools you can create with the Executors class :
+
+Single Thread Executor : A thread pool with only one thread. So all the submitted tasks will be executed sequentially. Method : Executors.newSingleThreadExecutor()
+Cached Thread Pool : A thread pool that creates as many threads it needs to execute the task in parrallel. The old available threads will be reused for the new tasks. If a thread is not used during 60 seconds, it will be terminated and removed from the pool. Method : Executors.newCachedThreadPool()
+Fixed Thread Pool : A thread pool with a fixed number of threads. If a thread is not available for the task, the task is put in queue waiting for an other task to ends. Method : Executors.newFixedThreadPool()
+Scheduled Thread Pool : A thread pool made to schedule future task. Method : Executors.newScheduledThreadPool()
+Single Thread Scheduled Pool : A thread pool with only one thread to schedule future task. Method : Executors.newSingleThreadScheduledExecutor()
+Once you have a thread pool, you can submit task to it using the different submit methods. You can submit a Runnable or a Callable to the thread pool. The method return a Future representing the future state of the task. If you submitted a Runnable, the Future object return null once the task finished.
+
+For example, if you have this Callable :
+
+privatefinalclass StringTask extends Callable<String>{publicString call(){//Long operationsreturn"Run";}}
+If you want to execute that task 10 times using 4 threads, you can use this code :
+
+ExecutorService pool = Executors.newFixedThreadPool(4);for(int i =0; i <10; i++){   pool.submit(new StringTask());}
+But you must shutdown the thread pool in order to terminate all the threads of the pool :
+
+pool.shutdown();
+If you don’t do that, the JVM risks to not shutdown because there is still unterminated threads. You can also force the shutdown of the pool using shutdownNow. With that the currently running tasks will be interrupted and the tasks not started will not be started at all.
+
+But in that example, you cannot get the result of the task. So let’s get the Future objects of the tasks :
+
+ExecutorService pool = Executors.newFixedThreadPool(4); List<Future<String>> futures =new ArrayList<Future<String>>(10);for(int i =0; i <10; i++){   futures.add(pool.submit(new StringTask()));}for(Future<String> future : futures){String result = future.get();//Compute the result} pool.shutdown();
+But this code is a bit complicated. And there is a disadvantage. If the first task takes a long time to compute and all the other tasks ends before the first, the current thread cannot compute the result before the first task ends. Once again, Java has the solution for you, CompletionService.
+
+A CompletionService is a service that make easier to wait for result of submitted task to an executor. The implementation is ExecutorCompletionService who’s based on an ExecutorService to work. So let’s try :
+
+ExecutorService threadPool = Executors.newFixedThreadPool(4);CompletionService<String> pool =new ExecutorCompletionService<String>(threadPool);for(int i =0; i <10; i++){   pool.submit(new StringTask());}for(int i =0; i <10; i++){String result = pool.take().get();//Compute the result} threadPool.shutdown();
+With that, you have the result in the order they are completed and you don’t have to keep a collection of Future.
+
+Here we are, you have the tools in hand to launch tasks in parralel using performing thread pools. Using Executors, ExecutorService and CompletionService you can create complex algorithm using several taks. With that tools, it’s really easy to change the number of threads performing in parralel or adding more tasks without changing a lot of code.
+
+I hope that this post will help you to write better concurrent code.

@@ -9,8 +9,7 @@ public class ClassLoaderBunny implements Cloneable, Serializable {
 
     private static final long serialVersionUID = 111232323232L;
 
-    public volatile int count = 100;
-    public transient int year = 2016;
+
     public String name = "tuhin";
     private String email = "mail@me.com";
 
@@ -55,5 +54,23 @@ public class ClassLoaderBunny implements Cloneable, Serializable {
         ClassLoaderBunny.deSerializer();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
+        ClassLoaderBunny bunny = (ClassLoaderBunny) o;
+
+        if (!name.equals(bunny.name)) return false;
+        return email.equals(bunny.email);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 1;
+        result = 31 * result + name.hashCode();
+        result = 31 * result + email.hashCode();
+        return result;
+    }
 }

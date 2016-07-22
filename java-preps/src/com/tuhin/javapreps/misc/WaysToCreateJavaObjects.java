@@ -20,7 +20,10 @@ public class WaysToCreateJavaObjects extends ClassLoaderBunny {
 
         // New keyword
         ClassLoaderBunny bunnyOne = new ClassLoaderBunny();
+        ClassLoaderBunny fuckerBunny = new ClassLoaderBunny();
         bunnyOne.doSomething("creating using new");
+
+        System.out.print("bunny one and fuckerbunny are same ? " + (bunnyOne == fuckerBunny) + bunnyOne.equals(fuckerBunny));
 
         //class.forName()
         try {
@@ -33,6 +36,8 @@ public class WaysToCreateJavaObjects extends ClassLoaderBunny {
         try {
             ClassLoaderBunny bunnyThree = (ClassLoaderBunny) bunnyOne.clone();
             bunnyOne.doSomething("by clone");
+            //System.out.print("does clonieg creates equal objects ? " + bunnyOne.equals(bunnyThree));
+            System.out.print("does clonieg creates == objects ? " + (bunnyOne == bunnyThree));
         } catch (CloneNotSupportedException cnse) {
             cnse.getLocalizedMessage();
         }
