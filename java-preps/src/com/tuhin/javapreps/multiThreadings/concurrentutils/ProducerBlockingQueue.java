@@ -20,7 +20,7 @@ public class ProducerBlockingQueue implements Runnable {
         Random random = new Random();
         while (true) {
             try {
-                int value = random.nextInt(1000);
+                int value = random.nextInt(100);
                 System.out.println("Producer# put: "+ value);
                 queue.put(value);
             } catch (InterruptedException e) {

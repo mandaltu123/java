@@ -21,7 +21,7 @@ public class ConsumerBlockingQueue implements Runnable {
             try {
                 // simulating real time scenario where we are saying that consumer will do some processing
                 //which takes time
-                Thread.sleep(1000);
+                Thread.sleep(100);
                 if (random.nextInt(10) == 0) {
                     int value = queue.take();
                     System.out.println("Consumer# take : " + value + "; Queue size is: " + queue.size());
