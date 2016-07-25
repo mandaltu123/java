@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ConnectionPool {
 
-    private static ConnectionPool instance = new ConnectionPool();
+    private static final ConnectionPool instance = new ConnectionPool();
     private Semaphore semaphore = new Semaphore(10);// we want to limit our number of connections to 10
     private int connections = 0;
 
