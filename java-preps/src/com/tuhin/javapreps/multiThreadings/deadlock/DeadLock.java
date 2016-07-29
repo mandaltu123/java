@@ -5,7 +5,7 @@ package com.tuhin.javapreps.multiThreadings.deadlock;
  * <p>
  * Deadlock describes a situation where two or more threads are blocked forever, waiting for each other. Here's an example.
  * <p>
- * Alphonse and Gaston are friends, and great believers in courtesy. A strict rule of courtesy is that when you bow
+ * Tom and Harry are friends, and great believers in courtesy. A strict rule of courtesy is that when you bow
  * to a friend, you must remain bowed until your friend has a chance to return the bow. Unfortunately, this rule does
  * not account for the possibility that two friends might bow to each other at the same time.
  * reference: https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html
