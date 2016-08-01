@@ -6,9 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="ef9fc5ac-699f-4660-912a-5e1bfbb18b8c" name="Default" comment="comparable and copare">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springrest/springrest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotPlan.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/OldRobotBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotBuilderClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotEngineer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/reaadme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/AnotherHashmapChecks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyHashMap.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ConditionalOperators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/HashMapTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/RelationalOperators.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/TestIncrement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Clidders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Encapsulation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Factorial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frobnicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/OverridingWithAccessModfiers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentMethodHigherAccessRights.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentWithFinalMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Top.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuhin/javapreps/comparablecompareto/Person.java" afterPath="$PROJECT_DIR$/src/com/tuhin/javapreps/comparablecompareto/Person.java" />
     </list>
     <ignored path="java-preps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,113 +51,12 @@
     <favorites_list name="java-preps" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/semaphores/ConnectionPool.java">
+    <leaf>
+      <file leaf-file-name="IRobotPlan.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotPlan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.98039216">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestIncrement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/TestIncrement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelationalOperators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/RelationalOperators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalOperators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ConditionalOperators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeadLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/DeadLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="29" />
-              <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
-                <element signature="e#1645#1646#0" expanded="true" />
-                <element signature="e#1691#1692#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Future.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Semaphore.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ConsumerBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.3664495">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,6 +67,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -162,36 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/strings/SwitchInJava.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/strings/StringRelated.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/Fortune.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/CreationOfThread.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/FortuneCookie.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/FortuneCookieTester.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/ThreadAccessor.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/MySingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/SigletonTester.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Waiter.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Cup.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/TestCoffeePouringNDrinking.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Producer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Cup.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/ProducerConsumerClient.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/ThreadJoin.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/misc/ThreadJoin.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/misc/CreationOfThread.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/Testing.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ClassLoaderBunny.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/WaysToCreateJavaObjects.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CouterIncrementer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterIncrementer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterDecrementer.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Counter.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterThreadTester.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/SnchronizedBlocks.java" />
-        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/utils/PrintUtil.java" />
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/innerClasses/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/Friend.java" />
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/innerClasses/OuterClass.java" />
@@ -213,6 +104,36 @@
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/RelationalOperators.java" />
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ConditionalOperators.java" />
         <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Encapsulation.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Clidders.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frobnicate.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frob.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Top.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentWithFinalMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentMethodHigherAccessRights.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/OverridingWithAccessModfiers.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/misc/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/comparablecompareto/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyEntry.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/AnotherHashmapChecks.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/EnemyShip.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/UFOEnemyShip.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/RocketEnemyShip.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/EnemyMotherShip.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/ShipFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/factory/ClientRequestingShips.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/singleton/singleton/MySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/factory/ClientRequestingShips.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/design/factory/factory/ClientRequestingShips.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/reaadme.md" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotPlan.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/Robot.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotEngineer.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/OldRobotBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotBuilderClient.java" />
       </list>
     </option>
   </component>
@@ -256,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="multiThreadings" />
+              <option name="myItemId" value="builderDesignPattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,27 +247,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javapreps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multiThreadings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deadlock" />
+              <option name="myItemId" value="references" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,31 +272,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="wa&#9;FILE&#9;file:///Users/tuhinmandal/Development/TUHIN-2016-CODEBASE/java/java-preps/src/com/tuhin/javapreps/misc/WaysToCreateJavaObjects.java" />
+    <property name="SearchEverywhereHistoryKey" value="com&#9;PSI&#9;JAVA://com.tuhin.javapreps.comparablecompareto.Person#NameComparator&#10;compara&#9;PSI&#9;JAVA://javax.swing.table.TableRowSorter.ComparableComparator&#10;wa&#9;FILE&#9;file:///Users/tuhinmandal/Development/TUHIN-2016-CODEBASE/java/java-preps/src/com/tuhin/javapreps/misc/WaysToCreateJavaObjects.java" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ConditionalOperators">
-    <configuration default="false" name="ConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tuhin.javapreps.multiThreadings.semaphores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.multiThreadings.semaphores.ConnectionPool" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-preps" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RobotBuilderClient">
     <configuration default="false" name="SetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -408,14 +297,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TestIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AnotherHashmapChecks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tuhin.javapreps.misc.*" />
+          <option name="PATTERN" value="com.tuhin.javapreps.collectionsUsages.setnmaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.misc.TestIncrement" />
+      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.collectionsUsages.setnmaps.AnotherHashmapChecks" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -428,14 +317,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RelationalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tuhin.javapreps.misc.*" />
+          <option name="PATTERN" value="com.tuhin.javapreps.comparablecompareto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.misc.RelationalOperators" />
+      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.comparablecompareto.Person" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -448,14 +337,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ConditionalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ClientRequestingShips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tuhin.javapreps.misc.*" />
+          <option name="PATTERN" value="com.tuhin.javapreps.design.singleton.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.misc.ConditionalOperators" />
+      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.design.singleton.factory.ClientRequestingShips" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-preps" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RobotBuilderClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tuhin.javapreps.builderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tuhin.javapreps.builderDesignPattern.RobotBuilderClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -713,18 +622,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ConnectionPool" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SetTester" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestIncrement" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RelationalOperators" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConditionalOperators" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SetTester" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AnotherHashmapChecks" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Person" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClientRequestingShips" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RobotBuilderClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ConditionalOperators" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RelationalOperators" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestIncrement" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConnectionPool" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RobotBuilderClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClientRequestingShips" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AnotherHashmapChecks" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Person" />
         <item index="4" class="java.lang.String" itemvalue="Application.SetTester" />
       </list>
     </recent_temporary>
@@ -756,60 +665,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25040388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.546875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.546875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25040388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.546875" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -847,8 +730,20 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Waiter.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotEngineer.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -857,387 +752,388 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/WaysToCreateJavaObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.757329">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/misc/CreationOfThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5390879">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.543974">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ClassLoaderBunny.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6123779">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6840391">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.228013">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/comparablecompareto/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39087948">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Cup.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ConditionalOperators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/semaphores/ConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46568626">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/innerClasses/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31862745">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/SnchronizedBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6733167">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterThreadTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12254902">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterDecrementer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6372549">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterIncrementer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46568626">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/Testing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26960784">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/innerClasses/OuterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36764705">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/VolatileUsage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/Synchronization.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Encapsulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/locks/LockTester.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Clidders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/executors/execotors.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frobnicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/utils/PrintUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Frob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/Top.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/OverridingWithAccessModfiers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="7" selection-start-line="198" selection-start-column="4" selection-end-line="208" selection-end-column="7" />
-          <folding />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/executors/FirstExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentMethodHigherAccessRights.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/problems/ParentWithFinalMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="330" column="18" selection-start-line="330" selection-start-column="18" selection-end-line="330" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/countdownlatches/CountDownLatchTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Cup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ProducerBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ProducerConsumerConcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35784313">
-          <caret line="119" column="18" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/callableAndFuture/CallableFutureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
+          <caret line="84" column="42" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/javax/swing/table/TableRowSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.759804">
+          <caret line="278" column="26" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/SetTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5637255">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75490195">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="255" column="30" selection-start-line="255" selection-start-column="30" selection-end-line="255" selection-end-column="30" />
-          <folding />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="44" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.307693">
+          <caret line="1226" column="52" selection-start-line="1226" selection-start-column="52" selection-end-line="1226" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/collectionsUsages/setnmaps/AnotherHashmapChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6862745">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/reaadme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41025642">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/references/JDK Development Tools.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68877554">
+          <caret line="47" column="159" selection-start-line="47" selection-start-column="159" selection-end-line="47" selection-end-column="159" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/comparablecompareto/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.46078432">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/TestCoffeePouringNDrinking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46568626">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
-          <folding />
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Cup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29411766">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/synchronizatoin/CounterIncrementer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12254902">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9313725">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/VolatileUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4117647">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/onemoreset/basicsynchronization/locks/LockTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85294116">
+          <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/executors/FirstExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9754902">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75980395">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/countdownlatches/CountDownLatchTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8088235">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ConsumerBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ProducerBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5637255">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/concurrentutils/ProducerConsumerConcUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5833333">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Cup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63235295">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17156863">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19607843">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/references/JDK Development Tools.htm">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/producerConsumer/ProducerConsumerClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.822034">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.41666666">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/callableAndFuture/CallableFutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6372549">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5637255">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/TestIncrement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.44117647">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/RelationalOperators.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/OldRobotBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/misc/ConditionalOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/deadlock/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.78431374">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/multiThreadings/semaphores/ConnectionPool.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotBuilderClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.98039216">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.5392157">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/RobotEngineer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5637255">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuhin/javapreps/builderDesignPattern/IRobotPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3664495">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

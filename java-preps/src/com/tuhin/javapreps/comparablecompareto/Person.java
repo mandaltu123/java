@@ -21,12 +21,14 @@ public class Person implements Comparable<Person> {
     /**
      * Comparable is used for natural ordering of the objects
      * in this example we have made that natural ordering based on the id.
-     * @param o
+     * @param o Person object
      * @return
      */
     @Override
     public int compareTo(Person o) {
-        return id - o.id;
+       // return id - o.id; if you want natural order by id
+        int nameCompare = name.compareTo(o.name); // naturan order by name
+        return nameCompare;
     }
 
     /**
@@ -102,5 +104,18 @@ public class Person implements Comparable<Person> {
         System.out.println("after passing name compartor::::::::::");
         printCollection(list);
 
+        SortedMap<Person, String> map = new TreeMap<>();
+        map.put(one, "all along the watchtower");
+        map.put(two, "rock n roll aint noise pollution");
+        map.put(three, "cocaine");
+
+        System.out.println(map);
+
+        LinkedHashMap<Person, String> linkedMap = new LinkedHashMap<>();
+
+        linkedMap.put(three, "cocaine");
+        linkedMap.put(one, "all along the watchtower");
+        linkedMap.put(two, "rock n roll aint noise pollution");
+        System.out.println(linkedMap);
     }
 }
