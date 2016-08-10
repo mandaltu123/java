@@ -11,7 +11,7 @@ import java.util.Set;
  * For actual implementation refer java hashmap
  * This is in reference : http://stackoverflow.com/questions/4072127/custom-hashmap-implementation
  * 
- * Collision rsolution is not been ahndled here. I will improve this implementation some time later
+ * Collision rsolution is not been handled here. I will improve this implementation some time later
  * 
  */
 public class MyHashMap<K, V> {
