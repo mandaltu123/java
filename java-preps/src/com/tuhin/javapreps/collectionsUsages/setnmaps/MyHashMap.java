@@ -10,6 +10,9 @@ import java.util.Set;
  * This is very basic hash map implementation with entry and hashFunction() both are very basic.
  * For actual implementation refer java hashmap
  * This is in reference : http://stackoverflow.com/questions/4072127/custom-hashmap-implementation
+ * 
+ * Collision rsolution is not been ahndled here. I will improve this implementation some time later
+ * 
  */
 public class MyHashMap<K, V> {
 
