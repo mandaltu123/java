@@ -13,7 +13,7 @@ public class EnemyMakerClient {
 
         System.out.println("-------------------");
         RobotAdaptee zogTheRobot = new RobotAdaptee();
-        RobotAdapter adapter = new RobotAdapter(zogTheRobot);
+        new RobotAdapter(zogTheRobot);
         zogTheRobot.reactToHuman("Drek");
         zogTheRobot.walkingForwad();
         zogTheRobot.smashWithHands();
