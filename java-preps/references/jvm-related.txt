@@ -1,0 +1,9 @@
+Garbage Collection:
+https://www.youtube.com/watch?v=DoJr5QQYsl8
+http://www.javaworld.com/article/2078645/java-se/jvm-performance-optimization-part-3-garbage-collection.html
+http://www.artima.com/insidejvm/ed2/gcP.html
+
+Java Memory Model:
+http://tutorials.jenkov.com/java-concurrency/java-memory-model.html
+
+
